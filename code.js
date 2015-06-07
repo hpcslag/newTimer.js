@@ -30,9 +30,9 @@ var timer = new Timer(function() { // init timer with 5 seconds
 }, 0);
 
 timer.add(2000);
-console.log("Add timer");
+console.log("Add time");
 timer.add(5000);
-console.log("Add timer");
+console.log("Add time");
 
 var time = 1;
 
