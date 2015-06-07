@@ -3,7 +3,7 @@ timer class can help you add time
 
 ###initialization timer
 ```javascript
-var timer = new Timer(function() { // init timer with 5 seconds
+var timer = new Timer(function() { // init timer with defalut(0) seconds
     console.log("FOO");
 }, 0);
 ```
