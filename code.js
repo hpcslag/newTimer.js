@@ -25,7 +25,7 @@ Timer.prototype.add = function(time) {
    }
 }
 
-var timer = new Timer(function() { // init timer with 5 seconds
+var timer = new Timer(function() {
     console.log("FOO");
 }, 0);
 
