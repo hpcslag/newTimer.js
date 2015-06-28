@@ -25,4 +25,8 @@ Timer.prototype.add = function(time) {
    }
 }
 
+Timer.prototype.clearTimeout = function(){
+    clearTimeout(this.timer);
+}
+
 module.exports = Timer;
