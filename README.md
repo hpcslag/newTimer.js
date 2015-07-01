@@ -7,7 +7,7 @@ var Timer = require('./timer.js');
 var timer = new Timer(function() { // init timer with defalut(0) seconds
     console.log("FOO");
 }, 0);
-timer.clearTimeout(); //clear this timer. well do not thing.
+timer.clearTimeout(); //clear this timer. will do not thing.
 ```
 
 ###add time
